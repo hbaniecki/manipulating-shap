@@ -1,6 +1,6 @@
 ## Manipulating SHAP via Adversarial Data Perturbations (Student Abstract)
  
-- URL TBA
+This repository contains data and code for the article: H. Baniecki, P. Biecek. **Manipulating SHAP via Adversarial Data Perturbations (Student Abstract)**. In: *AAAI Conference on Artificial Intelligence (AAAI)*, 2022. URL: TBD.
 
 Python version: 3.9.2
 
