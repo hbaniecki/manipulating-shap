@@ -1,6 +1,8 @@
 ## Manipulating SHAP via Adversarial Data Perturbations (Student Abstract)
  
-This repository contains data and code for the article: H. Baniecki, P. Biecek. **Manipulating SHAP via Adversarial Data Perturbations (Student Abstract)**. In: *AAAI Conference on Artificial Intelligence (AAAI)*, 2022. URL: TBD.
+This repository contains data and code for the article: H. Baniecki, P. Biecek. **Manipulating SHAP via Adversarial Data Perturbations (Student Abstract)**. In: *AAAI Conference on Artificial Intelligence (AAAI)*, 2022. URL: [To appear in the proceedings](https://www.aaai.org/AAAI22Papers/SA-00364-BanieckiH.pdf).
+
+> **2022-06-12 Update.** Values of Kendall tau *distance* reported in the article come from the `scipy.stats.kendalltau()` function, which in fact computes the Kendall tau *coefficient* (see the SciPy GitHub issue on "Kendall tau distance" https://github.com/scipy/scipy/issues/7089). Knowing that the (normalized) distance equals `(1 - coefficient) / 2`, the actual distance values equal 0.20 and 0.07, respectively. We updated `export_and_table.ipynb` to account for this error, which doesn't change the conclusion.
 
 Python version: 3.9.2
 
